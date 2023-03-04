@@ -1,0 +1,60 @@
+body{
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: center;
+}
+.container{
+    display:flex;
+    flex-direction: row;
+}
+
+.border{
+    background-color: white;
+    border: 1px white solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-left: 20px;
+    width: 400px;
+    height: 600px;
+}
+.company{
+    border: 1px green solid;
+    border-radius: 10px;
+    background-color: green;
+    width: 250px;
+    height: 60px;
+    text-align: center;
+}
+.price{
+    font-size:30px;
+    color: green;
+}
+.free{
+    text-decoration: line-through;
+    color: gray;
+}
+.tall{
+    font-size: 40px;
+    font-weight: 100px;
+}
+.color{
+    color: gray;
+}
+.title{
+    color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.text{
+    text-align: center;
+    color:white;
+}
+@media screen and(max-width:996px){
+    .container{
+        display: flex;
+        justify-content: center;
+        flex-direction:column;
+    }
+
+    
+}
